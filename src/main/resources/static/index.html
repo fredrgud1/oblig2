@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>kinobillet</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="script.js"></script>
+    <script type="application/javascript" src="script.js"></script>
 </head>
 <body onload="start()">
 <h1>Besttiling av kinobiletter</h1>
@@ -19,10 +19,10 @@
     <p>Etternavn <input id="etternavn" type="text"><p id="etternavnVarsel"></p></p>
     <p>Telefonnr <input id="teleNr" type="text"><p id="teleNrVarsel"></p></p>
     <p>Epost <input id="epost" type="text"><p id="epostVarsel"></p></p>
-    <button id="kjøp">Kjøp billett</button>
+    <button onclick="lagBillet()">Kjøp billett</button>
 <br>
     <h2>Alle billeter</h2>
-    <p id="billetListe"></p>
-    <button id="slett">Slett alle billettene</button>
+    <div id="billetListe"></div>
+    <button onclick="slettBillet()">Slett alle billettene</button>
 </body>
 </html>
