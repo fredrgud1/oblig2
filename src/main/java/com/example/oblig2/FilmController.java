@@ -11,7 +11,7 @@ public class FilmController {
 
     public final ArrayList<Billett> alleBilletter = new ArrayList<>();
 
-    @GetMapping("/lagre")
+    @PostMapping("/lagre")
     public void lagreBillett(Billett innBillett){
         alleBilletter.add(innBillett);
     }
