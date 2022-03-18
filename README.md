@@ -1,10 +1,10 @@
-# Oblig 1
+# Oblig 2
 
 OsloMet brukernavn: s362093
 
 GitHub brukernavn: fredrgud1
 
-GitHub repo URL: https://github.com/DATA1700/oblig-1-fredrgud1
+GitHub repo URL: https://github.com/DATA1700/oblig-2-fredrgud1
 
 URL til Heroku app: https://oblig1-fredrgud.herokuapp.com/
 

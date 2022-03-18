@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kinobillet</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body onload="start()">
+<h1>Besttiling av kinobiletter</h1>
+    <p>Velg film: <select name="filmer" id="filmValg">
+        <option value="1">film 1</option>
+        <option value="2">film 2</option>
+        <option value="3">film 3</option>
+    </select><p id="valgVarsel"></p>
+    <p>Antall <input id="antall" type="number"><p id="antalVarsel"></p></p>
+<br>
+    <p>Fornavn <input id="fornavn" type="text"><p id="fornavnVarsel"></p></p>
+    <p>Etternavn <input id="etternavn" type="text"><p id="etternavnVarsel"></p></p>
+    <p>Telefonnr <input id="teleNr" type="text"><p id="teleNrVarsel"></p></p>
+    <p>Epost <input id="epost" type="text"><p id="epostVarsel"></p></p>
+    <button id="kjøp">Kjøp billett</button>
+<br>
+    <h2>Alle billeter</h2>
+    <p id="billetListe"></p>
+    <button id="slett">Slett alle billettene</button>
+</body>
+</html>
