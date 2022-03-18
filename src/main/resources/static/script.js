@@ -43,7 +43,7 @@ if (fornavn == ""){
         teleNrVerdi: telefonNr,
         epostVerdi: epost
     }
-    $.get("/lagre", billett, function (){
+    $.post("/lagre", billett, function (){
         hentAlle();
     });
 
@@ -75,6 +75,6 @@ function hentAlle(){
  }
 
 function slettBillet(){
-
+     $.get( "/slett")
     document.getElementById("billetListe").innerHTML = "";
 }
