@@ -9,14 +9,14 @@ import java.util.ArrayList;
 @RestController
 public class FilmController {
 
-    public final ArrayList<billett> alleBilletter = new ArrayList<>();
+    public final ArrayList<Billett> alleBilletter = new ArrayList<>();
 
     @GetMapping("/lagre")
-    public void lagreBillett(billett innBillett){
+    public void lagreBillett(Billett innBillett){
         alleBilletter.add(innBillett);
     }
     @GetMapping("/hentAlle")
-    public ArrayList<billett> hentAlle(){
+    public ArrayList<Billett> hentAlle(){
         return alleBilletter;
     }
     @GetMapping("/slett")

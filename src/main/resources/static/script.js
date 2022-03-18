@@ -46,13 +46,6 @@ if (fornavn == ""){
     $.get("/lagre", billett, function (){
         hentAlle();
     });
-    billeter.push(billet);
-    document.getElementById("billetListe").innerHTML += billeter[i].filmValg +" "+ billeter[i].antallVerdi +" "
-     + billeter[i].fornavnVerdi + " " + billeter[i].etternavnVerdi + " " + billeter[i].teleNrVerdi + " " +
-        billeter[i].epostVerdi + "<br/>";
-      i ++;
-
-
 
       $("#filmValg").val("");
     $("#antall").val("");
