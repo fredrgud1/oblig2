@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>kinobillet</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -13,17 +14,17 @@
         <option value="2">film 2</option>
         <option value="3">film 3</option>
     </select><p id="valgVarsel"></p>
-    <p>Antall <input id="antall" type="number"><p id="antalVarsel"></p></p>
+    <p>Antall <input class="form-conrtol" id="antall" type="number"><p id="antalVarsel"></p></p>
 <br>
-    <p>Fornavn <input id="fornavn" type="text"><p id="fornavnVarsel"></p></p>
-    <p>Etternavn <input id="etternavn" type="text"><p id="etternavnVarsel"></p></p>
-    <p>Telefonnr <input id="teleNr" type="text"><p id="teleNrVarsel"></p></p>
-    <p>Epost <input id="epost" type="text"><p id="epostVarsel"></p></p>
-    <button onclick="lagBillet()">Kjøp billett</button>
+    <p>Fornavn <input class="form-conrtol" id="fornavn" type="text"><p id="fornavnVarsel"></p></p>
+    <p>Etternavn <input class="form-conrtol" id="etternavn" type="text"><p id="etternavnVarsel"></p></p>
+    <p>Telefonnr <input class="form-conrtol" id="teleNr" type="text"><p id="teleNrVarsel"></p></p>
+    <p>Epost <input class="form-conrtol" id="epost" type="text"><p id="epostVarsel"></p></p>
+    <button class="btn btn-primary" onclick="lagBillet()">Kjøp billett</button>
 <br>
     <h2>Alle billeter</h2>
     <div id="billetListe"></div>
-    <button onclick="slettBillet()">Slett alle billettene</button>
+    <button class="btn btn-danger" onclick="slettBillet()">Slett alle billettene</button>
 <script type="application/javascript" src="script.js"></script>
 </body>
 </html>

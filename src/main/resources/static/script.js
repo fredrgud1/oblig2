@@ -62,7 +62,7 @@ function hentAlle(){
 };
 
  function formaterData(kunder){
-     let ut = "<table> +" +
+     let ut = "<table class="table">" +
          "<tr>" +
          "<th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Epost</th><th>TeleNr</th>" +
          "<tr/>";
